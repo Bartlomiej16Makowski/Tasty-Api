@@ -1,7 +1,6 @@
-import styles from './Displayer.module.css'
+import styles from './Displayer.module.scss'
 
 export function Displayer({ recipe }) {
-	console.log(recipe)
 	return (
 		<div className={styles.container}>
 			<h2>{recipe.name}</h2>
